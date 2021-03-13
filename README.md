@@ -1,2 +1,6 @@
-# CrudSQLite
-Aplicativo Crud com base de dados SQLite
+#### Crud SQLite
+---
+Aplicativo CRUD utilizando o base de dados SQLite e linguagem de programação java.
+cadastro.
+delete.
+Update.

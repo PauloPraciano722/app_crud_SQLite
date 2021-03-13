@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#008577</color>
+    <!--cor da borda-->
+    <color name="colorBorda">#F4FA58</color>
+    <color name="colorBoder">#008577</color>
+    <color name="colorFundo">#00574B</color>
+    <color name="colorAdpter">#F4FA58</color>
+</resources>

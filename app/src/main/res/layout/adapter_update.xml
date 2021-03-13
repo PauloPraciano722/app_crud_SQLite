@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/boder_adapter"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/idUpdateNome"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/boder"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:text="Texto Nome"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/idUpdateEmail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/boder"
+            android:gravity="center_vertical"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:text="TextoEmail"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/idUpdateCelular"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/boder"
+            android:gravity="center_vertical"
+            android:inputType="phone"
+            android:paddingLeft="10dp"
+            android:text="TextoCelular"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/idUpdateEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/boder"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:text="TextoEndereco"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/idUpdateObervacao"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/boder"
+            android:gravity="top|left"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:text="TextoObservação"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/idBtnAdapterUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/borda"
+            android:paddingLeft="10dp"
+            android:text="Update"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

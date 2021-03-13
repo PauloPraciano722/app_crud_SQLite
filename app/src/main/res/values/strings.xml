@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SQLite Crud</string>
+    <!--Titulos -->
+    <string name="tituloCreate">Create SQLite</string>
+    <string name="cadastro">Create</string>
+    <string name="listar">Read</string>
+    <string name="atualizar">Update</string>
+    <string name="excluir">Delete</string>
+    <string name="sobre">Sobre App</string>
+</resources>
